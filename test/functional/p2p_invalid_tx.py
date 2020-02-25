@@ -19,7 +19,7 @@ from test_framework.util import (
     assert_equal,
     wait_until,
 )
-from data import invalid_txs
+from data import invalid_txs  # type: ignore
 
 
 class InvalidTxRequestTest(BitcoinTestFramework):
